@@ -1,5 +1,4 @@
-#include <iostream>
-using namespace std;
+#include "libraries.h"
 
 void selectionSort(int arr[], int array_size)
 {
@@ -46,6 +45,11 @@ int main()
         {4, 2, 3, 4, 5, 4, 1, 2, 5},
         {5, 5, 5, 5, 5, 5, 5, 5, 5},
         {64, 25, 12, 22, 11, 36, 98, 43, 87}};
+
+    cout << "------------------------" << endl;
+    cout << "---- Selection Sort ----" << endl;
+    cout << "------------------------" << endl;
+    cout<<endl;
 
     for (int i = 0; i < 5; i++)
     {
